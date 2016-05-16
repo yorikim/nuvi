@@ -1,4 +1,7 @@
 [![Travis](https://api.travis-ci.org/yorikim/nuvi.svg)](https://travis-ci.org/yorikim/nuvi)
+[![Code Climate](https://codeclimate.com/github/yorikim/nuvi/badges/gpa.svg)](https://codeclimate.com/github/yorikim/nuvi)
+[![Test Coverage](https://codeclimate.com/github/yorikim/nuvi/badges/coverage.svg)](https://codeclimate.com/github/yorikim/nuvi/coverage)
+
 
 # Nuvi
 

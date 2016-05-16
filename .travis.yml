@@ -7,3 +7,6 @@ script:
   - bundle exec rubocop
 rvm:
   - 2.2
+addons:
+  code_climate:
+    repo_token: b47e22f55df928cf3f59416b769755a34742185402054026a43aa35e3a4008c2
