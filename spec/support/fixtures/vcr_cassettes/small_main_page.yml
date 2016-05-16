@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://bitly.com/nuvi-plz
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 15 May 2016 10:24:01 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '140'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private, max-age=90
+      Location:
+      - http://feed.omgili.com/5Rh5AMTrc4Pv/mainstream/posts/
+      Set-Cookie:
+      - _bit=g4fao1-9345545076287f6b3b-00W; Domain=bitly.com; Expires=Fri, 11 Nov
+        2016 10:24:01 UTC
+    body:
+      encoding: UTF-8
+      string: |-
+        <html>
+        <head><title>Bitly</title></head>
+        <body><a href="http://feed.omgili.com/5Rh5AMTrc4Pv/mainstream/posts/">moved here</a></body>
+        </html>
+    http_version: 
+  recorded_at: Sun, 15 May 2016 10:24:01 GMT
+- request:
+    method: get
+    uri: http://feed.omgili.com/5Rh5AMTrc4Pv/mainstream/posts/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 15 May 2016 10:24:02 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '11268'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Via:
+      - 1.1 feed.omgili.com
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+        <html>
+         <head>
+          <title>Index of /5Rh5AMTrc4Pv/mainstream/posts</title>
+         </head>
+         <body>
+        <h1>Index of /5Rh5AMTrc4Pv/mainstream/posts</h1>
+        <table><tr><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr><tr><th colspan="4"><hr></th></tr>
+        <tr><td><a href="/5Rh5AMTrc4Pv/mainstream/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+        <tr><td><a href="1463046785377.zip">1463046785377.zip</a></td><td align="right">12-May-2016 13:01  </td><td align="right">9.9M</td><td>&nbsp;</td></tr>
+        <tr><th colspan="4"><hr></th></tr>
+        </table>
+        </body></html>
+    http_version: 
+  recorded_at: Sun, 15 May 2016 10:24:02 GMT
+recorded_with: VCR 3.0.1
