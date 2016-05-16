@@ -1,0 +1,7 @@
+url: 'http://bitly.com/nuvi-plz'
+dir: '/tmp/nuvi/'
+
+redis:
+  host: '127.0.0.1'
+  port: 6379
+  password:
