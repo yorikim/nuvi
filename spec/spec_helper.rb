@@ -4,7 +4,9 @@ require 'vcr'
 require 'webmock/rspec'
 require 'fakeredis/rspec'
 require 'redis-objects'
+require 'codeclimate-test-reporter'
 
+CodeClimate::TestReporter.start
 Redis::Objects.redis = Redis.new
 
 root = File.expand_path(File.join(File.dirname(__FILE__), '..'))
