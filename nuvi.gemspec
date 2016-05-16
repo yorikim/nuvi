@@ -23,4 +23,14 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'fuubar', '~> 2.0'
   spec.add_development_dependency 'rubocop', '~> 0.40'
+  spec.add_development_dependency 'vcr', '~> 3.0'
+  spec.add_development_dependency 'webmock', '~> 2.0'
+  spec.add_development_dependency 'fakeredis', '~> 0.3'
+
+  spec.add_runtime_dependency 'nokogiri', '~> 1.6'
+  spec.add_runtime_dependency 'mechanize', '~> 2.7'
+  spec.add_runtime_dependency 'cocoapods-downloader', '~> 0.3'
+  spec.add_runtime_dependency 'workers', '~> 0.6'
+  spec.add_runtime_dependency 'ruby-progressbar', '~> 1.8'
+  spec.add_runtime_dependency 'redis-objects', '~> 1.2'
 end
