@@ -2,6 +2,7 @@ require 'codeclimate-test-reporter'
 CodeClimate::TestReporter.start
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+require 'test_helper'
 require 'nuvi'
 require 'vcr'
 require 'webmock/rspec'
