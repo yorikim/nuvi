@@ -27,10 +27,6 @@ module Nuvi
         def accepted
           @accepted ||= Redis::Set.new('accepted_news')
         end
-
-        def lock
-          @lock ||= Redis::Lock.new('news_lock', expiration: 15, timeout: 0.1)
-        end
       end
     end
   end
