@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'workers', '~> 0.6'
   spec.add_runtime_dependency 'ruby-progressbar', '~> 1.8'
   spec.add_runtime_dependency 'redis-objects', '~> 1.2'
+  spec.add_runtime_dependency 'connection_pool', '~> 2.2'
 end
